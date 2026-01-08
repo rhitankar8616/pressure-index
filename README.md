@@ -1,10 +1,6 @@
 # T20 Pressure Index Application
 
-A comprehensive real-time pressure quantification tool for T20 cricket run chases, implementing the methodology from the research paper:
-
-> **"Applications of higher order Markov models and Pressure Index to strategize controlled run chases in Twenty20 cricket"**
-> 
-> *Authors: Rhitankar Bandyopadhyay (Indian Statistical Institute, Kolkata) & Dibyojyoti Bhattacharjee (Assam University, Silchar)*
+Pressure Index (PI) is a ball-by-ball metric designed to quantify the pressure experienced by a team while batting second in a limited-overs cricket match. Based on the foundation laid by H.H Lemmer and Dibyojyoti Bhattacharjee (2016) and several subsequent extended works over the years, the current study by Rhitankar Bandyopadhyay and Dibyojyoti Bhattacharjee (2025), in their research paper 'Applications of higher order Markov models and Pressure Index to strategize controlled run chases in Twenty20 cricket', focuses on phasewise third order Markov models and Gamma distribution fallbacks to strategize controlled run chases in T20 cricket.
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
@@ -13,7 +9,7 @@ A comprehensive real-time pressure quantification tool for T20 cricket run chase
 
 ## Live App
 
-The application will open in your default browser at `https://t20-pressure-index.streamlit.app`
+Use the app here: `https://t20-pressure-index.streamlit.app`
 
 ## Project Structure
 
