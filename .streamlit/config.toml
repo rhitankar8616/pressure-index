@@ -1,0 +1,12 @@
+[server]
+# Increase timeout for health checks (default is 60 seconds)
+enableStaticServing = true
+runOnSave = false
+
+[client]
+# Increase client-side timeout
+showErrorDetails = true
+
+[runner]
+# Prevent re-running on every interaction
+fastReruns = true

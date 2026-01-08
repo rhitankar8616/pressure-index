@@ -14,7 +14,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 from src.utils.visualizations import COLORS
-from src.utils.csv_loader import load_csv_data
+from src.utils.data_cache import get_processed_data
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
@@ -125,59 +125,13 @@ def render_clutch_teams():
     """Render the Clutch Teams analysis page"""
 
     try:
-        # Load ball-by-ball data from Dropbox
-        with st.spinner("Loading dataset from Dropbox..."):
-            df = load_csv_data()
-
-        # Calculate derived columns
-        df['ball'] = df['max_balls'] - df['inns_balls_rem']
-        df['runs_scored_cumulative'] = df['target'] - df['inns_runs_rem']
-
-        # Sort by match and ball
-        df = df.sort_values(['p_match', 'ball'])
-
-        # Use the new 'score' column for runs scored on this ball
-        df['runs_scored'] = df['score'].fillna(0).astype(int)
-
-        # Use the new 'out' column for wickets (True = out, False = not out)
-        df['is_wicket'] = df['out'].fillna(False).astype(bool)
-
-        # Calculate pressure index using DL table
-        from src.utils.pressure_index import PressureIndexCalculator, DuckworthLewisTable
-
-        base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        dl_table_path = os.path.join(base_path, 'data', 'duckworth_lewis_table.csv')
-        dl_table = DuckworthLewisTable(dl_table_path)
-        pi_calc = PressureIndexCalculator(dl_table)
-
-        # Calculate PI for each row
-        pi_values = []
-        for _, row in df.iterrows():
-            try:
-                pi = pi_calc.calculate_pressure_index(
-                    target=int(row['target']),
-                    runs_scored=int(row['runs_scored_cumulative']),
-                    balls_faced=int(row['ball']),
-                    wickets_lost=int(row['inns_wkts']),
-                    total_balls=int(row['max_balls'])
-                )
-                pi_values.append(pi)
-            except:
-                pi_values.append(0.0)
-
-        df['pressure_index'] = pi_values
-
-        # Rename columns to match our expected format
-        df = df.rename(columns={
-            'team_bat': 'team',
-            'team_bowl': 'opposition',
-            'ground': 'venue',
-            'p_match': 'match_id'
-        })
+        # Load pre-processed data from cache
+        with st.spinner("Loading dataset..."):
+            df = get_processed_data()
 
         # Add cumulative runs and wickets for win rate calculation
         df['runs'] = df['runs_scored_cumulative']
-        df['wickets'] = df['inns_wkts']
+        df['wickets'] = df.get('inns_wkts', df.get('wickets_lost', 0))
 
     except Exception as e:
         st.error(f"Error loading data: {str(e)}")
