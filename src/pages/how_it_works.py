@@ -27,20 +27,48 @@ def display_pdf(pdf_path):
     with open(pdf_path, "rb") as f:
         pdf_bytes = f.read()
 
-    # Encode PDF to base64
-    base64_pdf = base64.b64encode(pdf_bytes).decode('utf-8')
+    # Display PDF using Streamlit's native components
+    # Create an expander for better UX
+    with st.expander("📄 View Research Paper", expanded=True):
+        # Use Streamlit's experimental PDF viewer
+        try:
+            # Try to display using streamlit components
+            import streamlit.components.v1 as components
 
-    # Embed PDF in iframe
-    pdf_display = f"""
-    <iframe
-        src="data:application/pdf;base64,{base64_pdf}#view=FitH"
-        width="100%"
-        height="1200px"
-        type="application/pdf"
-        style="border: 2px solid #1e293b; border-radius: 8px;"
-    ></iframe>
-    """
-    st.markdown(pdf_display, unsafe_allow_html=True)
+            # Encode PDF to base64
+            base64_pdf = base64.b64encode(pdf_bytes).decode('utf-8')
+
+            # Use PDF.js viewer with object tag (more compatible)
+            pdf_display = f'''
+            <style>
+            .pdf-container {{
+                width: 100%;
+                height: 1200px;
+                border: 2px solid #1e293b;
+                border-radius: 8px;
+                overflow: hidden;
+            }}
+            </style>
+            <div class="pdf-container">
+                <object
+                    data="data:application/pdf;base64,{base64_pdf}"
+                    type="application/pdf"
+                    width="100%"
+                    height="100%">
+                    <embed
+                        src="data:application/pdf;base64,{base64_pdf}"
+                        type="application/pdf"
+                        width="100%"
+                        height="100%" />
+                </object>
+            </div>
+            '''
+
+            components.html(pdf_display, height=1220, scrolling=True)
+
+        except Exception as e:
+            st.error(f"Error displaying PDF: {str(e)}")
+            st.info("The PDF file exists but cannot be displayed in your browser. This is a browser compatibility issue.")
 
 
 def render_how_it_works():
