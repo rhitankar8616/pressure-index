@@ -1,0 +1,4624 @@
+{
+  "commentary": {
+    "count": 229,
+    "pageIndex": 1,
+    "pageSize": 25,
+    "pageCount": 10,
+    "items": [
+      {
+        "id": "110",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "1",
+          "description": "run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Ruyel Miah to Mohammad Naim, 1 run",
+        "homeScore": "1/0",
+        "awayScore": "0",
+        "scoreValue": 1,
+        "sequence": 100001,
+        "athletesInvolved": [
+          {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "displayName": "Mohammad Naim"
+          },
+          {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "fullName": "MD Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 1,
+          "wickets": 0,
+          "overs": 0.1,
+          "conceded": 1
+        },
+        "otherBowler": {
+          "athlete": {},
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 0,
+          "wickets": 0,
+          "overs": 0,
+          "conceded": 0
+        },
+        "batsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 1,
+          "faced": 1,
+          "fours": 0,
+          "runs": 1,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 0,
+          "faced": 0,
+          "fours": 0,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 6,
+          "remainingBalls": 119,
+          "byes": 0,
+          "number": 1,
+          "balls": 1,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 19.5,
+          "totalRuns": 1,
+          "wides": 0,
+          "runs": 1
+        },
+        "over": {
+          "ball": 1,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 1,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 0.1,
+          "actual": 0.1,
+          "unique": 0.01
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "1012349",
+              "name": "Ruyel Miah",
+              "shortName": "Ruyel Miah",
+              "fullName": "MD Ruyel Miah",
+              "displayName": "Ruyel Miah"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "990081",
+              "name": "Mohammad Naim",
+              "shortName": "",
+              "fullName": "Mohammad Naim Sheikh",
+              "displayName": "Mohammad Naim"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787231000
+      },
+      {
+        "id": "120",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "3",
+          "description": "four"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Ruyel Miah to Rossington, FOUR",
+        "homeScore": "5/0",
+        "awayScore": "0",
+        "scoreValue": 4,
+        "sequence": 100002,
+        "athletesInvolved": [
+          {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "displayName": "Adam Rossington"
+          },
+          {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "fullName": "MD Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 2,
+          "wickets": 0,
+          "overs": 0.2,
+          "conceded": 5
+        },
+        "otherBowler": {
+          "athlete": {},
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 0,
+          "wickets": 0,
+          "overs": 0,
+          "conceded": 0
+        },
+        "batsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 4,
+          "faced": 1,
+          "fours": 1,
+          "runs": 4,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 1,
+          "faced": 1,
+          "fours": 0,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 15,
+          "remainingBalls": 118,
+          "byes": 0,
+          "number": 1,
+          "balls": 2,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 19.4,
+          "totalRuns": 4,
+          "wides": 0,
+          "runs": 5
+        },
+        "over": {
+          "ball": 2,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 1,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 0.2,
+          "actual": 0.2,
+          "unique": 0.02
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "1012349",
+              "name": "Ruyel Miah",
+              "shortName": "Ruyel Miah",
+              "fullName": "MD Ruyel Miah",
+              "displayName": "Ruyel Miah"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "457280",
+              "name": "Adam Rossington",
+              "shortName": "Rossington",
+              "fullName": "Adam Matthew Rossington",
+              "displayName": "Adam Rossington"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787266000
+      },
+      {
+        "id": "130",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "2",
+          "description": "no run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Ruyel Miah to Rossington, no run",
+        "homeScore": "5/0",
+        "awayScore": "0",
+        "scoreValue": 0,
+        "sequence": 100003,
+        "athletesInvolved": [
+          {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "displayName": "Adam Rossington"
+          },
+          {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "fullName": "MD Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 3,
+          "wickets": 0,
+          "overs": 0.3,
+          "conceded": 5
+        },
+        "otherBowler": {
+          "athlete": {},
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 0,
+          "wickets": 0,
+          "overs": 0,
+          "conceded": 0
+        },
+        "batsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 4,
+          "faced": 2,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 1,
+          "faced": 1,
+          "fours": 0,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 10,
+          "remainingBalls": 117,
+          "byes": 0,
+          "number": 1,
+          "balls": 3,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 19.3,
+          "totalRuns": 0,
+          "wides": 0,
+          "runs": 5
+        },
+        "over": {
+          "ball": 3,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 1,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 0.3,
+          "actual": 0.3,
+          "unique": 0.03
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "1012349",
+              "name": "Ruyel Miah",
+              "shortName": "Ruyel Miah",
+              "fullName": "MD Ruyel Miah",
+              "displayName": "Ruyel Miah"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "457280",
+              "name": "Adam Rossington",
+              "shortName": "Rossington",
+              "fullName": "Adam Matthew Rossington",
+              "displayName": "Adam Rossington"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787310000
+      },
+      {
+        "id": "140",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "1",
+          "description": "run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Ruyel Miah to Rossington, 1 run",
+        "homeScore": "6/0",
+        "awayScore": "0",
+        "scoreValue": 1,
+        "sequence": 100004,
+        "athletesInvolved": [
+          {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "displayName": "Adam Rossington"
+          },
+          {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "fullName": "MD Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 4,
+          "wickets": 0,
+          "overs": 0.4,
+          "conceded": 6
+        },
+        "otherBowler": {
+          "athlete": {},
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 0,
+          "wickets": 0,
+          "overs": 0,
+          "conceded": 0
+        },
+        "batsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 3,
+          "fours": 1,
+          "runs": 1,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 1,
+          "faced": 1,
+          "fours": 0,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 9,
+          "remainingBalls": 116,
+          "byes": 0,
+          "number": 1,
+          "balls": 4,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 19.2,
+          "totalRuns": 1,
+          "wides": 0,
+          "runs": 6
+        },
+        "over": {
+          "ball": 4,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 1,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 0.4,
+          "actual": 0.4,
+          "unique": 0.04
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "1012349",
+              "name": "Ruyel Miah",
+              "shortName": "Ruyel Miah",
+              "fullName": "MD Ruyel Miah",
+              "displayName": "Ruyel Miah"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "457280",
+              "name": "Adam Rossington",
+              "shortName": "Rossington",
+              "fullName": "Adam Matthew Rossington",
+              "displayName": "Adam Rossington"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787339000
+      },
+      {
+        "id": "150",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "3",
+          "description": "four"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Ruyel Miah to Mohammad Naim, FOUR",
+        "homeScore": "10/0",
+        "awayScore": "0",
+        "scoreValue": 4,
+        "sequence": 100005,
+        "athletesInvolved": [
+          {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "displayName": "Mohammad Naim"
+          },
+          {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "fullName": "MD Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 5,
+          "wickets": 0,
+          "overs": 0.5,
+          "conceded": 10
+        },
+        "otherBowler": {
+          "athlete": {},
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 0,
+          "wickets": 0,
+          "overs": 0,
+          "conceded": 0
+        },
+        "batsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 2,
+          "fours": 1,
+          "runs": 4,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 3,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 12,
+          "remainingBalls": 115,
+          "byes": 0,
+          "number": 1,
+          "balls": 5,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 19.1,
+          "totalRuns": 4,
+          "wides": 0,
+          "runs": 10
+        },
+        "over": {
+          "ball": 5,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 1,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 0.5,
+          "actual": 0.5,
+          "unique": 0.05
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "1012349",
+              "name": "Ruyel Miah",
+              "shortName": "Ruyel Miah",
+              "fullName": "MD Ruyel Miah",
+              "displayName": "Ruyel Miah"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "990081",
+              "name": "Mohammad Naim",
+              "shortName": "",
+              "fullName": "Mohammad Naim Sheikh",
+              "displayName": "Mohammad Naim"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787385000
+      },
+      {
+        "id": "160",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "2",
+          "description": "no run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Ruyel Miah to Mohammad Naim, no run",
+        "homeScore": "10/0",
+        "awayScore": "0",
+        "scoreValue": 0,
+        "sequence": 100006,
+        "athletesInvolved": [
+          {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "displayName": "Mohammad Naim"
+          },
+          {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "fullName": "MD Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "otherBowler": {
+          "athlete": {},
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 0,
+          "wickets": 0,
+          "overs": 0,
+          "conceded": 0
+        },
+        "batsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 3,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 3,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 10,
+          "remainingBalls": 114,
+          "byes": 0,
+          "number": 1,
+          "balls": 6,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 19.0,
+          "totalRuns": 0,
+          "wides": 0,
+          "runs": 10
+        },
+        "over": {
+          "ball": 6,
+          "balls": 6,
+          "complete": true,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 1,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 0.6,
+          "actual": 0.6,
+          "unique": 0.06
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "1012349",
+              "name": "Ruyel Miah",
+              "shortName": "Ruyel Miah",
+              "fullName": "MD Ruyel Miah",
+              "displayName": "Ruyel Miah"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "990081",
+              "name": "Mohammad Naim",
+              "shortName": "",
+              "fullName": "Mohammad Naim Sheikh",
+              "displayName": "Mohammad Naim"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787424000
+      },
+      {
+        "id": "11010",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "2",
+          "description": "no run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Khaled Ahmed to Rossington, no run",
+        "homeScore": "10/0",
+        "awayScore": "0",
+        "scoreValue": 0,
+        "sequence": 100101,
+        "athletesInvolved": [
+          {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "displayName": "Adam Rossington"
+          },
+          {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "displayName": "Khaled Ahmed"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "fullName": "Syed Khaled Ahmed",
+            "displayName": "Khaled Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 1,
+          "wickets": 0,
+          "overs": 0.1,
+          "conceded": 0
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "fullName": "MD Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "batsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 4,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 3,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 8.57,
+          "remainingBalls": 113,
+          "byes": 0,
+          "number": 1,
+          "balls": 7,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 18.5,
+          "totalRuns": 0,
+          "wides": 0,
+          "runs": 10
+        },
+        "over": {
+          "ball": 1,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 2,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 1.1,
+          "actual": 1.1,
+          "unique": 1.01
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "927619",
+              "name": "Khaled Ahmed",
+              "shortName": "Khaled",
+              "fullName": "Syed Khaled Ahmed",
+              "displayName": "Khaled Ahmed"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "457280",
+              "name": "Adam Rossington",
+              "shortName": "Rossington",
+              "fullName": "Adam Matthew Rossington",
+              "displayName": "Adam Rossington"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787491000
+      },
+      {
+        "id": "11020",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "3",
+          "description": "four"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Khaled Ahmed to Rossington, FOUR",
+        "homeScore": "14/0",
+        "awayScore": "0",
+        "scoreValue": 4,
+        "sequence": 100102,
+        "athletesInvolved": [
+          {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "displayName": "Adam Rossington"
+          },
+          {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "displayName": "Khaled Ahmed"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "fullName": "Syed Khaled Ahmed",
+            "displayName": "Khaled Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 2,
+          "wickets": 0,
+          "overs": 0.2,
+          "conceded": 4
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "fullName": "MD Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "batsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 9,
+          "faced": 5,
+          "fours": 2,
+          "runs": 4,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 3,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 10.5,
+          "remainingBalls": 112,
+          "byes": 0,
+          "number": 1,
+          "balls": 8,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 18.4,
+          "totalRuns": 4,
+          "wides": 0,
+          "runs": 14
+        },
+        "over": {
+          "ball": 2,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 2,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 1.2,
+          "actual": 1.2,
+          "unique": 1.02
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "927619",
+              "name": "Khaled Ahmed",
+              "shortName": "Khaled",
+              "fullName": "Syed Khaled Ahmed",
+              "displayName": "Khaled Ahmed"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "457280",
+              "name": "Adam Rossington",
+              "shortName": "Rossington",
+              "fullName": "Adam Matthew Rossington",
+              "displayName": "Adam Rossington"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787533000
+      },
+      {
+        "id": "11030",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "6",
+          "description": "wide"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Khaled Ahmed to Rossington, 1 wide",
+        "homeScore": "15/0",
+        "awayScore": "0",
+        "scoreValue": 1,
+        "sequence": 100103,
+        "athletesInvolved": [
+          {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "displayName": "Adam Rossington"
+          },
+          {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "displayName": "Khaled Ahmed"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "fullName": "Syed Khaled Ahmed",
+            "displayName": "Khaled Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 2,
+          "wickets": 0,
+          "overs": 0.2,
+          "conceded": 5
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "fullName": "MD Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "batsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 9,
+          "faced": 5,
+          "fours": 2,
+          "runs": 0,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 3,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 11.25,
+          "remainingBalls": 112,
+          "byes": 0,
+          "number": 1,
+          "balls": 8,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 18.4,
+          "totalRuns": 1,
+          "wides": 1,
+          "runs": 15
+        },
+        "over": {
+          "ball": 3,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 1,
+          "legByes": 0,
+          "byes": 0,
+          "number": 2,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 1.2,
+          "actual": 1.3,
+          "unique": 1.03
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "927619",
+              "name": "Khaled Ahmed",
+              "shortName": "Khaled",
+              "fullName": "Syed Khaled Ahmed",
+              "displayName": "Khaled Ahmed"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "457280",
+              "name": "Adam Rossington",
+              "shortName": "Rossington",
+              "fullName": "Adam Matthew Rossington",
+              "displayName": "Adam Rossington"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787577000
+      },
+      {
+        "id": "11040",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "3",
+          "description": "four"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Khaled Ahmed to Rossington, FOUR",
+        "homeScore": "19/0",
+        "awayScore": "0",
+        "scoreValue": 4,
+        "sequence": 100104,
+        "athletesInvolved": [
+          {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "displayName": "Adam Rossington"
+          },
+          {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "displayName": "Khaled Ahmed"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "fullName": "Syed Khaled Ahmed",
+            "displayName": "Khaled Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 3,
+          "wickets": 0,
+          "overs": 0.3,
+          "conceded": 9
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "fullName": "MD Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "batsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 13,
+          "faced": 6,
+          "fours": 3,
+          "runs": 4,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 3,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 12.66,
+          "remainingBalls": 111,
+          "byes": 0,
+          "number": 1,
+          "balls": 9,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 18.3,
+          "totalRuns": 4,
+          "wides": 0,
+          "runs": 19
+        },
+        "over": {
+          "ball": 4,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 2,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 1.3,
+          "actual": 1.3,
+          "unique": 1.04
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "927619",
+              "name": "Khaled Ahmed",
+              "shortName": "Khaled",
+              "fullName": "Syed Khaled Ahmed",
+              "displayName": "Khaled Ahmed"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "457280",
+              "name": "Adam Rossington",
+              "shortName": "Rossington",
+              "fullName": "Adam Matthew Rossington",
+              "displayName": "Adam Rossington"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787620000
+      },
+      {
+        "id": "11050",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "1",
+          "description": "run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Khaled Ahmed to Rossington, 1 run",
+        "homeScore": "20/0",
+        "awayScore": "0",
+        "scoreValue": 1,
+        "sequence": 100105,
+        "athletesInvolved": [
+          {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "displayName": "Adam Rossington"
+          },
+          {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "displayName": "Khaled Ahmed"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "fullName": "Syed Khaled Ahmed",
+            "displayName": "Khaled Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 4,
+          "wickets": 0,
+          "overs": 0.4,
+          "conceded": 10
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "fullName": "MD Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "batsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 14,
+          "faced": 7,
+          "fours": 3,
+          "runs": 1,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 3,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 12,
+          "remainingBalls": 110,
+          "byes": 0,
+          "number": 1,
+          "balls": 10,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 18.2,
+          "totalRuns": 1,
+          "wides": 0,
+          "runs": 20
+        },
+        "over": {
+          "ball": 5,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 2,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 1.4,
+          "actual": 1.4,
+          "unique": 1.05
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "927619",
+              "name": "Khaled Ahmed",
+              "shortName": "Khaled",
+              "fullName": "Syed Khaled Ahmed",
+              "displayName": "Khaled Ahmed"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "457280",
+              "name": "Adam Rossington",
+              "shortName": "Rossington",
+              "fullName": "Adam Matthew Rossington",
+              "displayName": "Adam Rossington"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787665000
+      },
+      {
+        "id": "11060",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "2",
+          "description": "no run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Khaled Ahmed to Mohammad Naim, no run",
+        "homeScore": "20/0",
+        "awayScore": "0",
+        "scoreValue": 0,
+        "sequence": 100106,
+        "athletesInvolved": [
+          {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "displayName": "Khaled Ahmed"
+          },
+          {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "displayName": "Mohammad Naim"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "fullName": "Syed Khaled Ahmed",
+            "displayName": "Khaled Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 5,
+          "wickets": 0,
+          "overs": 0.5,
+          "conceded": 10
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "fullName": "MD Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "batsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 4,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 14,
+          "faced": 7,
+          "fours": 3,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 10.9,
+          "remainingBalls": 109,
+          "byes": 0,
+          "number": 1,
+          "balls": 11,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 18.1,
+          "totalRuns": 0,
+          "wides": 0,
+          "runs": 20
+        },
+        "over": {
+          "ball": 6,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 2,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 1.5,
+          "actual": 1.5,
+          "unique": 1.06
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "927619",
+              "name": "Khaled Ahmed",
+              "shortName": "Khaled",
+              "fullName": "Syed Khaled Ahmed",
+              "displayName": "Khaled Ahmed"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "990081",
+              "name": "Mohammad Naim",
+              "shortName": "",
+              "fullName": "Mohammad Naim Sheikh",
+              "displayName": "Mohammad Naim"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787729000
+      },
+      {
+        "id": "11070",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "2",
+          "description": "no run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Khaled Ahmed to Mohammad Naim, no run",
+        "homeScore": "20/0",
+        "awayScore": "0",
+        "scoreValue": 0,
+        "sequence": 100107,
+        "athletesInvolved": [
+          {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "displayName": "Khaled Ahmed"
+          },
+          {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "displayName": "Mohammad Naim"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "fullName": "Syed Khaled Ahmed",
+            "displayName": "Khaled Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "1012349",
+            "name": "Ruyel Miah",
+            "shortName": "Ruyel Miah",
+            "fullName": "MD Ruyel Miah",
+            "displayName": "Ruyel Miah"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "batsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 5,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 14,
+          "faced": 7,
+          "fours": 3,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 10,
+          "remainingBalls": 108,
+          "byes": 0,
+          "number": 1,
+          "balls": 12,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 18.0,
+          "totalRuns": 0,
+          "wides": 0,
+          "runs": 20
+        },
+        "over": {
+          "ball": 7,
+          "balls": 6,
+          "complete": true,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 2,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 1.6,
+          "actual": 1.6,
+          "unique": 1.07
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "927619",
+              "name": "Khaled Ahmed",
+              "shortName": "Khaled",
+              "fullName": "Syed Khaled Ahmed",
+              "displayName": "Khaled Ahmed"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "990081",
+              "name": "Mohammad Naim",
+              "shortName": "",
+              "fullName": "Mohammad Naim Sheikh",
+              "displayName": "Mohammad Naim"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787774000
+      },
+      {
+        "id": "12010",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "2",
+          "description": "no run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Ali to Rossington, no run",
+        "homeScore": "20/0",
+        "awayScore": "0",
+        "scoreValue": 0,
+        "sequence": 100201,
+        "athletesInvolved": [
+          {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "displayName": "Moeen Ali"
+          },
+          {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "displayName": "Adam Rossington"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "fullName": "Moeen Munir Ali",
+            "displayName": "Moeen Ali"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 1,
+          "wickets": 0,
+          "overs": 0.1,
+          "conceded": 0
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "fullName": "Syed Khaled Ahmed",
+            "displayName": "Khaled Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "batsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 14,
+          "faced": 8,
+          "fours": 3,
+          "runs": 0,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 5,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 9.23,
+          "remainingBalls": 107,
+          "byes": 0,
+          "number": 1,
+          "balls": 13,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 17.5,
+          "totalRuns": 0,
+          "wides": 0,
+          "runs": 20
+        },
+        "over": {
+          "ball": 1,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 3,
+          "runs": 5,
+          "wickets": 0,
+          "overs": 2.1,
+          "actual": 2.1,
+          "unique": 2.01
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "8917",
+              "name": "Moeen Ali",
+              "shortName": "Moeen Ali",
+              "fullName": "Moeen Munir Ali",
+              "displayName": "Moeen Ali"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "457280",
+              "name": "Adam Rossington",
+              "shortName": "Rossington",
+              "fullName": "Adam Matthew Rossington",
+              "displayName": "Adam Rossington"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787849000
+      },
+      {
+        "id": "12020",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "1",
+          "description": "run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Ali to Rossington, 1 run",
+        "homeScore": "21/0",
+        "awayScore": "0",
+        "scoreValue": 1,
+        "sequence": 100202,
+        "athletesInvolved": [
+          {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "displayName": "Moeen Ali"
+          },
+          {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "displayName": "Adam Rossington"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "fullName": "Moeen Munir Ali",
+            "displayName": "Moeen Ali"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 2,
+          "wickets": 0,
+          "overs": 0.2,
+          "conceded": 1
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "fullName": "Syed Khaled Ahmed",
+            "displayName": "Khaled Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "batsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 15,
+          "faced": 9,
+          "fours": 3,
+          "runs": 1,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 5,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 9,
+          "remainingBalls": 106,
+          "byes": 0,
+          "number": 1,
+          "balls": 14,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 17.4,
+          "totalRuns": 1,
+          "wides": 0,
+          "runs": 21
+        },
+        "over": {
+          "ball": 2,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 3,
+          "runs": 5,
+          "wickets": 0,
+          "overs": 2.2,
+          "actual": 2.2,
+          "unique": 2.02
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "8917",
+              "name": "Moeen Ali",
+              "shortName": "Moeen Ali",
+              "fullName": "Moeen Munir Ali",
+              "displayName": "Moeen Ali"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "457280",
+              "name": "Adam Rossington",
+              "shortName": "Rossington",
+              "fullName": "Adam Matthew Rossington",
+              "displayName": "Adam Rossington"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787868000
+      },
+      {
+        "id": "12030",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "2",
+          "description": "no run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Ali to Mohammad Naim, no run",
+        "homeScore": "21/0",
+        "awayScore": "0",
+        "scoreValue": 0,
+        "sequence": 100203,
+        "athletesInvolved": [
+          {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "displayName": "Moeen Ali"
+          },
+          {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "displayName": "Mohammad Naim"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "fullName": "Moeen Munir Ali",
+            "displayName": "Moeen Ali"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 3,
+          "wickets": 0,
+          "overs": 0.3,
+          "conceded": 1
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "fullName": "Syed Khaled Ahmed",
+            "displayName": "Khaled Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "batsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 6,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 15,
+          "faced": 9,
+          "fours": 3,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 8.4,
+          "remainingBalls": 105,
+          "byes": 0,
+          "number": 1,
+          "balls": 15,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 17.3,
+          "totalRuns": 0,
+          "wides": 0,
+          "runs": 21
+        },
+        "over": {
+          "ball": 3,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 3,
+          "runs": 5,
+          "wickets": 0,
+          "overs": 2.3,
+          "actual": 2.3,
+          "unique": 2.03
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "8917",
+              "name": "Moeen Ali",
+              "shortName": "Moeen Ali",
+              "fullName": "Moeen Munir Ali",
+              "displayName": "Moeen Ali"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "990081",
+              "name": "Mohammad Naim",
+              "shortName": "",
+              "fullName": "Mohammad Naim Sheikh",
+              "displayName": "Mohammad Naim"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787911000
+      },
+      {
+        "id": "12040",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "2",
+          "description": "no run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Ali to Mohammad Naim, no run",
+        "homeScore": "21/0",
+        "awayScore": "0",
+        "scoreValue": 0,
+        "sequence": 100204,
+        "athletesInvolved": [
+          {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "displayName": "Moeen Ali"
+          },
+          {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "displayName": "Mohammad Naim"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "fullName": "Moeen Munir Ali",
+            "displayName": "Moeen Ali"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 4,
+          "wickets": 0,
+          "overs": 0.4,
+          "conceded": 1
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "fullName": "Syed Khaled Ahmed",
+            "displayName": "Khaled Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "batsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 7,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 15,
+          "faced": 9,
+          "fours": 3,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 7.87,
+          "remainingBalls": 104,
+          "byes": 0,
+          "number": 1,
+          "balls": 16,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 17.2,
+          "totalRuns": 0,
+          "wides": 0,
+          "runs": 21
+        },
+        "over": {
+          "ball": 4,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 3,
+          "runs": 5,
+          "wickets": 0,
+          "overs": 2.4,
+          "actual": 2.4,
+          "unique": 2.04
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "8917",
+              "name": "Moeen Ali",
+              "shortName": "Moeen Ali",
+              "fullName": "Moeen Munir Ali",
+              "displayName": "Moeen Ali"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "990081",
+              "name": "Mohammad Naim",
+              "shortName": "",
+              "fullName": "Mohammad Naim Sheikh",
+              "displayName": "Mohammad Naim"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787929000
+      },
+      {
+        "id": "12050",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "2",
+          "description": "no run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Ali to Mohammad Naim, no run",
+        "homeScore": "21/0",
+        "awayScore": "0",
+        "scoreValue": 0,
+        "sequence": 100205,
+        "athletesInvolved": [
+          {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "displayName": "Moeen Ali"
+          },
+          {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "displayName": "Mohammad Naim"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "fullName": "Moeen Munir Ali",
+            "displayName": "Moeen Ali"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 5,
+          "wickets": 0,
+          "overs": 0.5,
+          "conceded": 1
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "fullName": "Syed Khaled Ahmed",
+            "displayName": "Khaled Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "batsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 5,
+          "faced": 8,
+          "fours": 1,
+          "runs": 0,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 15,
+          "faced": 9,
+          "fours": 3,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 7.41,
+          "remainingBalls": 103,
+          "byes": 0,
+          "number": 1,
+          "balls": 17,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 17.1,
+          "totalRuns": 0,
+          "wides": 0,
+          "runs": 21
+        },
+        "over": {
+          "ball": 5,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 3,
+          "runs": 5,
+          "wickets": 0,
+          "overs": 2.5,
+          "actual": 2.5,
+          "unique": 2.05
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "8917",
+              "name": "Moeen Ali",
+              "shortName": "Moeen Ali",
+              "fullName": "Moeen Munir Ali",
+              "displayName": "Moeen Ali"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "990081",
+              "name": "Mohammad Naim",
+              "shortName": "",
+              "fullName": "Mohammad Naim Sheikh",
+              "displayName": "Mohammad Naim"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787950000
+      },
+      {
+        "id": "12060",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "3",
+          "description": "four"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Ali to Mohammad Naim, FOUR",
+        "homeScore": "25/0",
+        "awayScore": "0",
+        "scoreValue": 4,
+        "sequence": 100206,
+        "athletesInvolved": [
+          {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "displayName": "Moeen Ali"
+          },
+          {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "displayName": "Mohammad Naim"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "fullName": "Moeen Munir Ali",
+            "displayName": "Moeen Ali"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 5
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "927619",
+            "name": "Khaled Ahmed",
+            "shortName": "Khaled",
+            "fullName": "Syed Khaled Ahmed",
+            "displayName": "Khaled Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "batsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 9,
+          "faced": 9,
+          "fours": 2,
+          "runs": 4,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 15,
+          "faced": 9,
+          "fours": 3,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 8.33,
+          "remainingBalls": 102,
+          "byes": 0,
+          "number": 1,
+          "balls": 18,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 17.0,
+          "totalRuns": 4,
+          "wides": 0,
+          "runs": 25
+        },
+        "over": {
+          "ball": 6,
+          "balls": 6,
+          "complete": true,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 3,
+          "runs": 5,
+          "wickets": 0,
+          "overs": 2.6,
+          "actual": 2.6,
+          "unique": 2.06
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "8917",
+              "name": "Moeen Ali",
+              "shortName": "Moeen Ali",
+              "fullName": "Moeen Munir Ali",
+              "displayName": "Moeen Ali"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "990081",
+              "name": "Mohammad Naim",
+              "shortName": "",
+              "fullName": "Mohammad Naim Sheikh",
+              "displayName": "Mohammad Naim"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767787968000
+      },
+      {
+        "id": "13010",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "1",
+          "description": "run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Nasum Ahmed to Rossington, 1 run",
+        "homeScore": "26/0",
+        "awayScore": "0",
+        "scoreValue": 1,
+        "sequence": 100301,
+        "athletesInvolved": [
+          {
+            "id": "348049",
+            "name": "Nasum Ahmed",
+            "shortName": "Nasum",
+            "displayName": "Nasum Ahmed"
+          },
+          {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "displayName": "Adam Rossington"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "348049",
+            "name": "Nasum Ahmed",
+            "shortName": "Nasum",
+            "fullName": "Nasum Ahmed",
+            "displayName": "Nasum Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 1,
+          "wickets": 0,
+          "overs": 0.1,
+          "conceded": 1
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "fullName": "Moeen Munir Ali",
+            "displayName": "Moeen Ali"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 5
+        },
+        "batsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 16,
+          "faced": 10,
+          "fours": 3,
+          "runs": 1,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 9,
+          "faced": 9,
+          "fours": 2,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 8.21,
+          "remainingBalls": 101,
+          "byes": 0,
+          "number": 1,
+          "balls": 19,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 16.5,
+          "totalRuns": 1,
+          "wides": 0,
+          "runs": 26
+        },
+        "over": {
+          "ball": 1,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 4,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 3.1,
+          "actual": 3.1,
+          "unique": 3.01
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "348049",
+              "name": "Nasum Ahmed",
+              "shortName": "Nasum",
+              "fullName": "Nasum Ahmed",
+              "displayName": "Nasum Ahmed"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "457280",
+              "name": "Adam Rossington",
+              "shortName": "Rossington",
+              "fullName": "Adam Matthew Rossington",
+              "displayName": "Adam Rossington"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767788044000
+      },
+      {
+        "id": "13020",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "2",
+          "description": "no run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Nasum Ahmed to Mohammad Naim, no run",
+        "homeScore": "26/0",
+        "awayScore": "0",
+        "scoreValue": 0,
+        "sequence": 100302,
+        "athletesInvolved": [
+          {
+            "id": "348049",
+            "name": "Nasum Ahmed",
+            "shortName": "Nasum",
+            "displayName": "Nasum Ahmed"
+          },
+          {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "displayName": "Mohammad Naim"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "348049",
+            "name": "Nasum Ahmed",
+            "shortName": "Nasum",
+            "fullName": "Nasum Ahmed",
+            "displayName": "Nasum Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 2,
+          "wickets": 0,
+          "overs": 0.2,
+          "conceded": 1
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "fullName": "Moeen Munir Ali",
+            "displayName": "Moeen Ali"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 5
+        },
+        "batsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 9,
+          "faced": 10,
+          "fours": 2,
+          "runs": 0,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 16,
+          "faced": 10,
+          "fours": 3,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 7.8,
+          "remainingBalls": 100,
+          "byes": 0,
+          "number": 1,
+          "balls": 20,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 16.4,
+          "totalRuns": 0,
+          "wides": 0,
+          "runs": 26
+        },
+        "over": {
+          "ball": 2,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 4,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 3.2,
+          "actual": 3.2,
+          "unique": 3.02
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "348049",
+              "name": "Nasum Ahmed",
+              "shortName": "Nasum",
+              "fullName": "Nasum Ahmed",
+              "displayName": "Nasum Ahmed"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "990081",
+              "name": "Mohammad Naim",
+              "shortName": "",
+              "fullName": "Mohammad Naim Sheikh",
+              "displayName": "Mohammad Naim"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767788073000
+      },
+      {
+        "id": "13030",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "2",
+          "description": "no run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Nasum Ahmed to Mohammad Naim, no run",
+        "homeScore": "26/0",
+        "awayScore": "0",
+        "scoreValue": 0,
+        "sequence": 100303,
+        "athletesInvolved": [
+          {
+            "id": "348049",
+            "name": "Nasum Ahmed",
+            "shortName": "Nasum",
+            "displayName": "Nasum Ahmed"
+          },
+          {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "displayName": "Mohammad Naim"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "348049",
+            "name": "Nasum Ahmed",
+            "shortName": "Nasum",
+            "fullName": "Nasum Ahmed",
+            "displayName": "Nasum Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 3,
+          "wickets": 0,
+          "overs": 0.3,
+          "conceded": 1
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "fullName": "Moeen Munir Ali",
+            "displayName": "Moeen Ali"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 5
+        },
+        "batsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 9,
+          "faced": 11,
+          "fours": 2,
+          "runs": 0,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 16,
+          "faced": 10,
+          "fours": 3,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 7.42,
+          "remainingBalls": 99,
+          "byes": 0,
+          "number": 1,
+          "balls": 21,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 16.3,
+          "totalRuns": 0,
+          "wides": 0,
+          "runs": 26
+        },
+        "over": {
+          "ball": 3,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 4,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 3.3,
+          "actual": 3.3,
+          "unique": 3.03
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "348049",
+              "name": "Nasum Ahmed",
+              "shortName": "Nasum",
+              "fullName": "Nasum Ahmed",
+              "displayName": "Nasum Ahmed"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "990081",
+              "name": "Mohammad Naim",
+              "shortName": "",
+              "fullName": "Mohammad Naim Sheikh",
+              "displayName": "Mohammad Naim"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767788096000
+      },
+      {
+        "id": "13040",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "1",
+          "description": "run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Nasum Ahmed to Mohammad Naim, 2 runs",
+        "homeScore": "28/0",
+        "awayScore": "0",
+        "scoreValue": 2,
+        "sequence": 100304,
+        "athletesInvolved": [
+          {
+            "id": "348049",
+            "name": "Nasum Ahmed",
+            "shortName": "Nasum",
+            "displayName": "Nasum Ahmed"
+          },
+          {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "displayName": "Mohammad Naim"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "348049",
+            "name": "Nasum Ahmed",
+            "shortName": "Nasum",
+            "fullName": "Nasum Ahmed",
+            "displayName": "Nasum Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 4,
+          "wickets": 0,
+          "overs": 0.4,
+          "conceded": 3
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "fullName": "Moeen Munir Ali",
+            "displayName": "Moeen Ali"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 5
+        },
+        "batsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 11,
+          "faced": 12,
+          "fours": 2,
+          "runs": 2,
+          "sixes": 0
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 16,
+          "faced": 10,
+          "fours": 3,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 7.63,
+          "remainingBalls": 98,
+          "byes": 0,
+          "number": 1,
+          "balls": 22,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 16.2,
+          "totalRuns": 2,
+          "wides": 0,
+          "runs": 28
+        },
+        "over": {
+          "ball": 4,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 4,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 3.4,
+          "actual": 3.4,
+          "unique": 3.04
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "348049",
+              "name": "Nasum Ahmed",
+              "shortName": "Nasum",
+              "fullName": "Nasum Ahmed",
+              "displayName": "Nasum Ahmed"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "990081",
+              "name": "Mohammad Naim",
+              "shortName": "",
+              "fullName": "Mohammad Naim Sheikh",
+              "displayName": "Mohammad Naim"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767788124000
+      },
+      {
+        "id": "13050",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "4",
+          "description": "six"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Nasum Ahmed to Mohammad Naim, SIX",
+        "homeScore": "34/0",
+        "awayScore": "0",
+        "scoreValue": 6,
+        "sequence": 100305,
+        "athletesInvolved": [
+          {
+            "id": "348049",
+            "name": "Nasum Ahmed",
+            "shortName": "Nasum",
+            "displayName": "Nasum Ahmed"
+          },
+          {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "displayName": "Mohammad Naim"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "348049",
+            "name": "Nasum Ahmed",
+            "shortName": "Nasum",
+            "fullName": "Nasum Ahmed",
+            "displayName": "Nasum Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 5,
+          "wickets": 0,
+          "overs": 0.5,
+          "conceded": 9
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "fullName": "Moeen Munir Ali",
+            "displayName": "Moeen Ali"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 5
+        },
+        "batsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 17,
+          "faced": 13,
+          "fours": 2,
+          "runs": 6,
+          "sixes": 1
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 16,
+          "faced": 10,
+          "fours": 3,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 8.86,
+          "remainingBalls": 97,
+          "byes": 0,
+          "number": 1,
+          "balls": 23,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 16.1,
+          "totalRuns": 6,
+          "wides": 0,
+          "runs": 34
+        },
+        "over": {
+          "ball": 5,
+          "balls": 6,
+          "complete": false,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 4,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 3.5,
+          "actual": 3.5,
+          "unique": 3.05
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "348049",
+              "name": "Nasum Ahmed",
+              "shortName": "Nasum",
+              "fullName": "Nasum Ahmed",
+              "displayName": "Nasum Ahmed"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "990081",
+              "name": "Mohammad Naim",
+              "shortName": "",
+              "fullName": "Mohammad Naim Sheikh",
+              "displayName": "Mohammad Naim"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767788154000
+      },
+      {
+        "id": "13060",
+        "clock": "00:00",
+        "date": "2026-1-08 18:00:00",
+        "playType": {
+          "id": "1",
+          "description": "run"
+        },
+        "team": {
+          "id": "1516535",
+          "name": "Chattogram Royals",
+          "abbreviation": "CHR",
+          "displayName": "Chattogram Royals"
+        },
+        "mediaId": 0,
+        "period": 1,
+        "periodText": "1st innings",
+        "preText": "",
+        "text": "",
+        "postText": "",
+        "shortText": "Nasum Ahmed to Mohammad Naim, 1 run",
+        "homeScore": "35/0",
+        "awayScore": "0",
+        "scoreValue": 1,
+        "sequence": 100306,
+        "athletesInvolved": [
+          {
+            "id": "348049",
+            "name": "Nasum Ahmed",
+            "shortName": "Nasum",
+            "displayName": "Nasum Ahmed"
+          },
+          {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "displayName": "Mohammad Naim"
+          }
+        ],
+        "bowler": {
+          "athlete": {
+            "id": "348049",
+            "name": "Nasum Ahmed",
+            "shortName": "Nasum",
+            "fullName": "Nasum Ahmed",
+            "displayName": "Nasum Ahmed"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 10
+        },
+        "otherBowler": {
+          "athlete": {
+            "id": "8917",
+            "name": "Moeen Ali",
+            "shortName": "Moeen Ali",
+            "fullName": "Moeen Munir Ali",
+            "displayName": "Moeen Ali"
+          },
+          "team": {
+            "id": "1516533",
+            "name": "Sylhet Titans",
+            "abbreviation": "SYT",
+            "displayName": "Sylhet Titans"
+          },
+          "maidens": 0,
+          "balls": 6,
+          "wickets": 0,
+          "overs": 1.0,
+          "conceded": 5
+        },
+        "batsman": {
+          "athlete": {
+            "id": "990081",
+            "name": "Mohammad Naim",
+            "shortName": "",
+            "fullName": "Mohammad Naim Sheikh",
+            "displayName": "Mohammad Naim"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 18,
+          "faced": 14,
+          "fours": 2,
+          "runs": 1,
+          "sixes": 1
+        },
+        "otherBatsman": {
+          "athlete": {
+            "id": "457280",
+            "name": "Adam Rossington",
+            "shortName": "Rossington",
+            "fullName": "Adam Matthew Rossington",
+            "displayName": "Adam Rossington"
+          },
+          "team": {
+            "id": "1516535",
+            "name": "Chattogram Royals",
+            "abbreviation": "CHR",
+            "displayName": "Chattogram Royals"
+          },
+          "totalRuns": 16,
+          "faced": 10,
+          "fours": 3,
+          "runs": 0,
+          "sixes": 0
+        },
+        "innings": {
+          "id": "282311",
+          "runRate": 8.75,
+          "remainingBalls": 96,
+          "byes": 0,
+          "number": 1,
+          "balls": 24,
+          "noBalls": 0,
+          "wickets": 0,
+          "legByes": 0,
+          "ballLimit": 120,
+          "target": 0,
+          "session": 1,
+          "day": 1,
+          "fallOfWickets": 0,
+          "trailBy": 0,
+          "leadBy": 0,
+          "remainingOvers": 16.0,
+          "totalRuns": 1,
+          "wides": 0,
+          "runs": 35
+        },
+        "over": {
+          "ball": 6,
+          "balls": 6,
+          "complete": true,
+          "limit": 20.0,
+          "maiden": 0,
+          "noBall": 0,
+          "wide": 0,
+          "legByes": 0,
+          "byes": 0,
+          "number": 4,
+          "runs": 10,
+          "wickets": 0,
+          "overs": 3.6,
+          "actual": 3.6,
+          "unique": 3.06
+        },
+        "dismissal": {
+          "dismissal": false,
+          "bowled": false,
+          "type": "",
+          "bowler": {
+            "athlete": {
+              "id": "348049",
+              "name": "Nasum Ahmed",
+              "shortName": "Nasum",
+              "fullName": "Nasum Ahmed",
+              "displayName": "Nasum Ahmed"
+            }
+          },
+          "batsman": {
+            "athlete": {
+              "id": "990081",
+              "name": "Mohammad Naim",
+              "shortName": "",
+              "fullName": "Mohammad Naim Sheikh",
+              "displayName": "Mohammad Naim"
+            }
+          },
+          "text": "",
+          "minutes": 0,
+          "retiredText": ""
+        },
+        "bbbTimestamp": 1767788189000
+      }
+    ]
+  }
+}
