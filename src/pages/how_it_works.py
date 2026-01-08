@@ -15,60 +15,36 @@ from src.components.ui_components import render_footer
 
 
 def display_pdf(pdf_path):
-    """Display a PDF file in the Streamlit app"""
+    """Display a PDF file in the Streamlit app using GitHub-hosted URL"""
 
-    # Check if file exists
-    if not os.path.exists(pdf_path):
-        st.error(f"PDF file not found at: {pdf_path}")
-        st.info("Please place your research paper PDF in the 'data' folder")
-        return
+    # GitHub raw URL for the PDF
+    pdf_url = "https://github.com/rhitankar8616/pressure-index/raw/main/data/Applications_of_higher_order_Markov_models_and_Pressure_Index_to_strategize_controlled_run_chases_in_Twenty20_cricket.pdf"
 
-    # Read PDF file
-    with open(pdf_path, "rb") as f:
-        pdf_bytes = f.read()
+    # Use Google Docs Viewer for better compatibility
+    google_docs_url = f"https://docs.google.com/viewer?url={pdf_url}&embedded=true"
 
-    # Display PDF using Streamlit's native components
-    # Create an expander for better UX
-    with st.expander("📄 View Research Paper", expanded=True):
-        # Use Streamlit's experimental PDF viewer
-        try:
-            # Try to display using streamlit components
-            import streamlit.components.v1 as components
+    # Display PDF using iframe with Google Docs viewer
+    pdf_display = f"""
+    <style>
+    .pdf-container {{
+        width: 100%;
+        height: 1200px;
+        border: 2px solid #1e293b;
+        border-radius: 8px;
+        overflow: hidden;
+    }}
+    </style>
+    <div class="pdf-container">
+        <iframe
+            src="{google_docs_url}"
+            width="100%"
+            height="100%"
+            style="border: none;">
+        </iframe>
+    </div>
+    """
 
-            # Encode PDF to base64
-            base64_pdf = base64.b64encode(pdf_bytes).decode('utf-8')
-
-            # Use PDF.js viewer with object tag (more compatible)
-            pdf_display = f'''
-            <style>
-            .pdf-container {{
-                width: 100%;
-                height: 1200px;
-                border: 2px solid #1e293b;
-                border-radius: 8px;
-                overflow: hidden;
-            }}
-            </style>
-            <div class="pdf-container">
-                <object
-                    data="data:application/pdf;base64,{base64_pdf}"
-                    type="application/pdf"
-                    width="100%"
-                    height="100%">
-                    <embed
-                        src="data:application/pdf;base64,{base64_pdf}"
-                        type="application/pdf"
-                        width="100%"
-                        height="100%" />
-                </object>
-            </div>
-            '''
-
-            components.html(pdf_display, height=1220, scrolling=True)
-
-        except Exception as e:
-            st.error(f"Error displaying PDF: {str(e)}")
-            st.info("The PDF file exists but cannot be displayed in your browser. This is a browser compatibility issue.")
+    st.markdown(pdf_display, unsafe_allow_html=True)
 
 
 def render_how_it_works():
