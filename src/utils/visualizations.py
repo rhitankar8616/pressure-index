@@ -309,8 +309,7 @@ def create_pressure_curve(
             x=0.5
         ),
         xaxis=dict(
-            title="Balls",
-            titlefont=dict(color=COLORS['text_secondary']),
+            title=dict(text="Balls", font=dict(color=COLORS['text_secondary'])),
             tickfont=dict(color=COLORS['text_secondary']),
             gridcolor=COLORS['grid'],
             linecolor=COLORS['axis'],
@@ -319,8 +318,7 @@ def create_pressure_curve(
             range=[0, max(balls) + 5] if balls else [0, 120]
         ),
         yaxis=dict(
-            title="Pressure Index",
-            titlefont=dict(color=COLORS['text_secondary']),
+            title=dict(text="Pressure Index", font=dict(color=COLORS['text_secondary'])),
             tickfont=dict(color=COLORS['text_secondary']),
             gridcolor=COLORS['grid'],
             linecolor=COLORS['axis'],
@@ -427,15 +425,13 @@ def create_comparison_curve(
     fig.update_layout(
         title=dict(text=title, font=dict(color=COLORS['text'], size=16), x=0.5),
         xaxis=dict(
-            title="Balls",
-            titlefont=dict(color=COLORS['text_secondary']),
+            title=dict(text="Balls", font=dict(color=COLORS['text_secondary'])),
             tickfont=dict(color=COLORS['text_secondary']),
             gridcolor=COLORS['grid'],
             range=[0, max_balls + 5]
         ),
         yaxis=dict(
-            title="Pressure Index",
-            titlefont=dict(color=COLORS['text_secondary']),
+            title=dict(text="Pressure Index", font=dict(color=COLORS['text_secondary'])),
             tickfont=dict(color=COLORS['text_secondary']),
             gridcolor=COLORS['grid'],
             range=[0, max_pi * 1.2]
@@ -540,21 +536,18 @@ def create_over_summary_chart(
     fig.update_layout(
         title=dict(text=title, font=dict(color=COLORS['text'], size=14), x=0.5),
         xaxis=dict(
-            title="Over",
-            titlefont=dict(color=COLORS['text_secondary']),
+            title=dict(text="Over", font=dict(color=COLORS['text_secondary'])),
             tickfont=dict(color=COLORS['text_secondary']),
             gridcolor=COLORS['grid'],
             dtick=2
         ),
         yaxis=dict(
-            title="Runs",
-            titlefont=dict(color=COLORS['text_secondary']),
+            title=dict(text="Runs", font=dict(color=COLORS['text_secondary'])),
             tickfont=dict(color=COLORS['text_secondary']),
             gridcolor=COLORS['grid']
         ),
         yaxis2=dict(
-            title="Wickets",
-            titlefont=dict(color=COLORS['wicket_marker']),
+            title=dict(text="Wickets", font=dict(color=COLORS['wicket_marker'])),
             tickfont=dict(color=COLORS['wicket_marker']),
             range=[0, 5]
         ),
