@@ -23,26 +23,76 @@ def display_pdf(pdf_path):
         st.info("Please place your research paper PDF in the 'data' folder and name it 'research_paper.pdf'")
         return
 
-    # Read and encode PDF
+    # Read PDF file
     with open(pdf_path, "rb") as f:
-        base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+        pdf_bytes = f.read()
 
-    # Embed PDF in iframe with full width
-    pdf_display = f"""
-    <iframe
-        src="data:application/pdf;base64,{base64_pdf}"
-        width="100%"
-        height="1200px"
-        type="application/pdf"
-        style="border: 1px solid #1e293b; border-radius: 8px;"
-    >
-        <p>Your browser does not support PDFs.
-        <a href="data:application/pdf;base64,{base64_pdf}" download="research_paper.pdf">
-        Download the PDF</a> instead.</p>
-    </iframe>
-    """
+    # Provide download button
+    st.download_button(
+        label="📄 Download Research Paper (PDF)",
+        data=pdf_bytes,
+        file_name="Pressure_Index_Research_Paper.pdf",
+        mime="application/pdf",
+        use_container_width=True
+    )
 
-    st.markdown(pdf_display, unsafe_allow_html=True)
+    st.markdown("---")
+
+    # Try to display PDF using iframe (works in most browsers)
+    base64_pdf = base64.b64encode(pdf_bytes).decode('utf-8')
+
+    # Create tabs for different viewing options
+    view_tab1, view_tab2 = st.tabs(["📖 View PDF", "ℹ️ Paper Information"])
+
+    with view_tab1:
+        # Embed PDF in iframe with full width
+        pdf_display = f"""
+        <div style="width: 100%; height: 1200px; overflow: auto;">
+            <iframe
+                src="data:application/pdf;base64,{base64_pdf}#view=FitH"
+                width="100%"
+                height="100%"
+                type="application/pdf"
+                style="border: 2px solid #1e293b; border-radius: 8px;"
+            ></iframe>
+        </div>
+        """
+        st.markdown(pdf_display, unsafe_allow_html=True)
+
+        st.info("💡 If the PDF doesn't display above, use the download button to view it locally.")
+
+    with view_tab2:
+        st.markdown("""
+        ### Research Paper Details
+
+        **Title:** Applications of higher order Markov models and Pressure Index to strategize controlled run chases in Twenty20 cricket
+
+        **Authors:**
+        - Rhitankar Bandyopadhyay
+        - Dibyojyoti Bhattacharjee
+
+        **Year:** 2025
+
+        **Abstract:**
+        This study presents a comprehensive framework for quantifying and analyzing pressure in T20 cricket run chases.
+        Building upon the foundational work by H.H Lemmer and Dibyojyoti Bhattacharjee (2016), we introduce:
+
+        - **Phase-wise Third Order Markov Models**: Advanced statistical models that capture ball-by-ball dynamics across different match phases (powerplay, middle overs, death overs)
+        - **Gamma Distribution Fallbacks**: Robust handling of rare scenarios and edge cases
+        - **Strategic Insights**: Data-driven recommendations for controlled run chases
+
+        The Pressure Index (PI) provides a ball-by-ball metric that quantifies the pressure experienced by the batting team,
+        enabling teams to make informed strategic decisions during run chases.
+
+        **Key Contributions:**
+        - Novel application of higher-order Markov models to cricket analytics
+        - Comprehensive analysis of 1000+ T20 matches
+        - Practical strategic recommendations for teams and analysts
+        - Interactive visualization tools for real-time match analysis
+        """)
+
+        st.markdown("---")
+        st.markdown("**Citation:** Bandyopadhyay, R., & Bhattacharjee, D. (2025). Applications of higher order Markov models and Pressure Index to strategize controlled run chases in Twenty20 cricket.")
 
 
 def render_how_it_works():
