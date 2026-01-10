@@ -83,7 +83,7 @@ class CricinfoScraper:
         self.session.headers.update(HEADERS)
         self.cache = {}
         self.cache_time = {}
-        self.cache_duration = 15  # seconds
+        self.cache_duration = 10  # seconds - reduced for more frequent checks
     
     def _get_cached(self, key: str) -> Optional[Dict]:
         """Get cached data if still valid"""
@@ -105,23 +105,29 @@ class CricinfoScraper:
         match_ids = []
 
         try:
-            # Try multiple ESPN pages
+            # Try multiple ESPN pages INCLUDING league-specific pages
             pages_to_check = [
                 "https://www.espncricinfo.com/live-cricket-score",
                 "https://www.espncricinfo.com/",
                 "https://www.espncricinfo.com/live-cricket-match-schedule-fixtures",
+                "https://www.espncricinfo.com/series/sa20-2024-25-1441053",  # SA20 current season
+                "https://www.espncricinfo.com/series/bpl-2024-25-1432217",   # BPL current season
+                "https://www.espncricinfo.com/series/big-bash-league-2024-25-1437600",  # BBL
             ]
 
             for page_url in pages_to_check:
                 try:
-                    response = self.session.get(page_url, timeout=10)
+                    response = self.session.get(page_url, timeout=15)
                     if response.status_code != 200:
                         continue
 
-                    soup = BeautifulSoup(response.text, 'html.parser')
+                    html_content = response.text
+                    soup = BeautifulSoup(html_content, 'html.parser')
 
-                    # Method 1: Look for match IDs in links
+                    # Method 1: Look for match IDs in ALL links and text
                     # ESPN Cricinfo uses URLs like: /series/{series_id}/{match_id}/live-cricket-score
+
+                    # Search in links
                     links = soup.find_all('a', href=True)
                     for link in links:
                         href = link['href']
@@ -129,32 +135,50 @@ class CricinfoScraper:
                         match = re.search(r'/series/[^/]+/(\d+)/live-cricket-score', href)
                         if match:
                             match_id = match.group(1)
-                            if match_id not in match_ids:
+                            if match_id not in match_ids and len(match_id) >= 6:
                                 match_ids.append(match_id)
+                                print(f"Found match ID in link: {match_id}")
 
                         # Pattern 2: /live-cricket-scores/{match_id}/
                         match = re.search(r'/live-cricket-scores/(\d+)/', href)
                         if match:
                             match_id = match.group(1)
-                            if match_id not in match_ids:
+                            if match_id not in match_ids and len(match_id) >= 6:
                                 match_ids.append(match_id)
+                                print(f"Found match ID in live scores: {match_id}")
 
                         # Pattern 3: event={match_id}
                         match = re.search(r'event=(\d+)', href)
                         if match:
                             match_id = match.group(1)
-                            if match_id not in match_ids:
+                            if match_id not in match_ids and len(match_id) >= 6:
                                 match_ids.append(match_id)
+                                print(f"Found match ID in event: {match_id}")
 
-                    # Method 2: Look for embedded JSON data
-                    scripts = soup.find_all('script', type='application/json')
+                    # Method 2: Search raw HTML for match ID patterns
+                    # Sometimes IDs are in data attributes or JavaScript
+                    all_match_ids = re.findall(r'(?:match[_-]?id|event[_-]?id)["\s:]+(\d{6,8})', html_content, re.IGNORECASE)
+                    for match_id in all_match_ids:
+                        if match_id not in match_ids:
+                            match_ids.append(match_id)
+                            print(f"Found match ID in HTML: {match_id}")
+
+                    # Method 3: Look for embedded JSON data
+                    scripts = soup.find_all('script')
                     for script in scripts:
-                        try:
-                            data = json.loads(script.string)
-                            # Recursively search for match IDs in JSON
-                            self._extract_match_ids_from_json(data, match_ids)
-                        except:
-                            continue
+                        if script.string:
+                            # Look for JSON with match/event IDs
+                            try:
+                                # Try to extract JSON objects
+                                json_matches = re.findall(r'\{[^{}]{50,2000}?\}', script.string)
+                                for json_str in json_matches[:20]:  # Limit to avoid processing too much
+                                    try:
+                                        data = json.loads(json_str)
+                                        self._extract_match_ids_from_json(data, match_ids)
+                                    except:
+                                        continue
+                            except:
+                                continue
 
                 except Exception as e:
                     print(f"Error checking page {page_url}: {e}")
@@ -163,6 +187,7 @@ class CricinfoScraper:
         except Exception as e:
             print(f"Error discovering match IDs: {e}")
 
+        print(f"Total discovered match IDs: {len(match_ids)}")
         return match_ids
 
     def _extract_match_ids_from_json(self, data, match_ids: List[str]):

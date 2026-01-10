@@ -51,9 +51,20 @@ class DirectAPIScraper:
 
         # Try multiple ESPN API endpoints
         api_endpoints = [
+            # Primary endpoints
             "https://site.web.api.espn.com/apis/site/v2/sports/cricket/scoreboard",
             "https://site.api.espn.com/apis/site/v2/sports/cricket/scoreboard",
+
+            # League-specific endpoints that might have matches
+            "https://site.web.api.espn.com/apis/site/v2/sports/cricket/15103/scoreboard",  # SA20 2024-25
+            "https://site.web.api.espn.com/apis/site/v2/sports/cricket/8048/scoreboard",   # IPL
+            "https://site.web.api.espn.com/apis/site/v2/sports/cricket/10388/scoreboard",  # BBL
+            "https://site.web.api.espn.com/apis/site/v2/sports/cricket/15104/scoreboard",  # BPL 2024-25
+            "https://site.web.api.espn.com/apis/site/v2/sports/cricket/8676/scoreboard",   # T20I
+
+            # Alternative formats
             "https://cdn.espn.com/core/cricket/scoreboard",
+            "https://www.espncricinfo.com/ci/engine/match/index.html?view=live",
         ]
 
         for url in api_endpoints:
