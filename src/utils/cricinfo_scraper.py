@@ -19,16 +19,19 @@ CRICINFO_LIVE_API = "https://site.web.api.espn.com/apis/site/v2/sports/cricket/{
 
 # ESPN Cricket League IDs for comprehensive T20 coverage
 # These IDs are used to fetch matches from different leagues
-# COMPREHENSIVE LIST - All major T20 leagues worldwide
+# UPDATED 2025 - All major T20 leagues worldwide
 ESPN_LEAGUE_IDS = {
     # International Cricket
     8676: 'International T20I',
+    11571: 'T20I Series',
 
-    # Major Franchise Leagues
+    # Major Franchise Leagues - 2025 UPDATED IDS
     8048: 'Indian Premier League (IPL)',
     10388: 'Big Bash League (BBL)',
-    11497: 'SA20 (South Africa)',
+    15103: 'SA20 2024-25',  # Updated SA20 league ID
+    11497: 'SA20 (Legacy)',  # Keep legacy ID as fallback
     8653: 'Bangladesh Premier League (BPL)',
+    15104: 'BPL 2024-25',  # Updated BPL ID
     6960: 'Caribbean Premier League (CPL)',
     8679: 'Pakistan Super League (PSL)',
     12504: 'Lanka Premier League (LPL)',
@@ -37,6 +40,7 @@ ESPN_LEAGUE_IDS = {
     # England Domestic
     11701: 'The Hundred',
     6158: 'T20 Blast (England)',
+    6119: 'Vitality Blast',
 
     # Other Major Leagues
     14335: 'Nepal Premier League',
@@ -46,13 +50,15 @@ ESPN_LEAGUE_IDS = {
     # Additional Leagues
     12741: 'Super Smash (New Zealand)',
     11338: 'CSA T20 Challenge (South Africa)',
-    11571: 'T20I Series',
     12177: 'T20 World Cup',
     8044: 'T20 World Cup Qualifier',
 
-    # Women's Leagues (for comprehensive coverage)
+    # Women's Leagues
     11476: 'Women\'s Big Bash League',
     12633: 'Women\'s Premier League (WPL)',
+
+    # Additional fallback IDs - trying broader ranges
+    **{i: f'League {i}' for i in range(15100, 15120)},  # Recent league IDs
 }
 
 # Headers to mimic browser request
@@ -90,7 +96,100 @@ class CricinfoScraper:
         """Set cache data"""
         self.cache[key] = data
         self.cache_time[key] = time.time()
-    
+
+    def _discover_live_match_ids(self) -> List[str]:
+        """
+        Scrape ESPN Cricinfo main pages to discover live match IDs
+        This is the most reliable method as it gets matches directly from the website
+        """
+        match_ids = []
+
+        try:
+            # Try multiple ESPN pages
+            pages_to_check = [
+                "https://www.espncricinfo.com/live-cricket-score",
+                "https://www.espncricinfo.com/",
+                "https://www.espncricinfo.com/live-cricket-match-schedule-fixtures",
+            ]
+
+            for page_url in pages_to_check:
+                try:
+                    response = self.session.get(page_url, timeout=10)
+                    if response.status_code != 200:
+                        continue
+
+                    soup = BeautifulSoup(response.text, 'html.parser')
+
+                    # Method 1: Look for match IDs in links
+                    # ESPN Cricinfo uses URLs like: /series/{series_id}/{match_id}/live-cricket-score
+                    links = soup.find_all('a', href=True)
+                    for link in links:
+                        href = link['href']
+                        # Pattern 1: /series/{series}/{match_id}/live-cricket-score
+                        match = re.search(r'/series/[^/]+/(\d+)/live-cricket-score', href)
+                        if match:
+                            match_id = match.group(1)
+                            if match_id not in match_ids:
+                                match_ids.append(match_id)
+
+                        # Pattern 2: /live-cricket-scores/{match_id}/
+                        match = re.search(r'/live-cricket-scores/(\d+)/', href)
+                        if match:
+                            match_id = match.group(1)
+                            if match_id not in match_ids:
+                                match_ids.append(match_id)
+
+                        # Pattern 3: event={match_id}
+                        match = re.search(r'event=(\d+)', href)
+                        if match:
+                            match_id = match.group(1)
+                            if match_id not in match_ids:
+                                match_ids.append(match_id)
+
+                    # Method 2: Look for embedded JSON data
+                    scripts = soup.find_all('script', type='application/json')
+                    for script in scripts:
+                        try:
+                            data = json.loads(script.string)
+                            # Recursively search for match IDs in JSON
+                            self._extract_match_ids_from_json(data, match_ids)
+                        except:
+                            continue
+
+                except Exception as e:
+                    print(f"Error checking page {page_url}: {e}")
+                    continue
+
+        except Exception as e:
+            print(f"Error discovering match IDs: {e}")
+
+        return match_ids
+
+    def _extract_match_ids_from_json(self, data, match_ids: List[str]):
+        """Recursively extract match IDs from JSON data"""
+        if isinstance(data, dict):
+            # Check for id field
+            if 'id' in data and isinstance(data['id'], (str, int)):
+                match_id = str(data['id'])
+                if match_id.isdigit() and len(match_id) >= 6:  # ESPN match IDs are typically 6-7 digits
+                    if match_id not in match_ids:
+                        match_ids.append(match_id)
+
+            # Check for eventId or matchId fields
+            for key in ['eventId', 'matchId', 'event_id', 'match_id']:
+                if key in data:
+                    match_id = str(data[key])
+                    if match_id.isdigit() and match_id not in match_ids:
+                        match_ids.append(match_id)
+
+            # Recurse into nested dicts
+            for value in data.values():
+                self._extract_match_ids_from_json(value, match_ids)
+
+        elif isinstance(data, list):
+            for item in data:
+                self._extract_match_ids_from_json(item, match_ids)
+
     def get_live_matches(self) -> List[Dict]:
         """
         Fetch all live T20 matches from multiple sources
@@ -105,8 +204,39 @@ class CricinfoScraper:
         matches = []
 
         try:
+            # Method 0: Scrape ESPN Cricinfo main page for live match links
+            print("Scraping ESPN Cricinfo main page for live matches...")
+            try:
+                discovered_ids = self._discover_live_match_ids()
+                if discovered_ids:
+                    print(f"Discovered {len(discovered_ids)} live match IDs from ESPN main page")
+                    for match_id in discovered_ids:
+                        # Get match details directly
+                        match_details = self.get_match_details(str(match_id))
+                        if match_details and match_details.get('current_innings', {}).get('is_second_innings'):
+                            # Create match_info structure
+                            match_info = {
+                                'match_id': str(match_id),
+                                'name': f"{match_details['team1']} vs {match_details['team2']}",
+                                'short_name': f"{match_details['team1']} v {match_details['team2']}",
+                                'status': match_details['status'],
+                                'venue': match_details['venue'],
+                                'series': match_details['series'],
+                                'is_live': True,
+                                'source': 'espn',
+                                'teams': {
+                                    'team1': {'name': match_details['team1']},
+                                    'team2': {'name': match_details['team2']}
+                                }
+                            }
+                            if self._is_t20_match(match_info):
+                                matches.append(match_info)
+                                print(f"Added: {match_info['name']}")
+            except Exception as e:
+                print(f"Error discovering live matches from main page: {e}")
+
             # Method 1: Try the main ESPN cricket scoreboard (catches ALL cricket)
-            print("Fetching from main ESPN cricket scoreboard...")
+            print("Fetching from main ESPN cricket scoreboard API...")
             try:
                 main_url = "https://site.web.api.espn.com/apis/site/v2/sports/cricket/scoreboard"
                 response = self.session.get(main_url, timeout=10)
@@ -124,9 +254,9 @@ class CricinfoScraper:
                                     match_info['source'] = 'espn'
                                     if not any(m['match_id'] == match_info['match_id'] for m in matches):
                                         matches.append(match_info)
-                                        print(f"Found: {match_info['name']} (ID: {match_info['match_id']})")
+                                        print(f"Found from API: {match_info['name']} (ID: {match_info['match_id']})")
             except Exception as e:
-                print(f"Error with main ESPN scoreboard: {e}")
+                print(f"Error with main ESPN scoreboard API: {e}")
 
             # Method 2: Try ESPN API endpoints for specific leagues
             print(f"Fetching from {len(ESPN_LEAGUE_IDS)} specific league APIs...")
