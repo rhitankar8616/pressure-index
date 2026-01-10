@@ -204,16 +204,42 @@ class CricinfoScraper:
         matches = []
 
         try:
-            # Method 0: Scrape ESPN Cricinfo main page for live match links
+            # Method 0: Use Direct API (MOST RELIABLE - ESPN's internal API)
+            print("Fetching from ESPN's comprehensive internal API...")
+            try:
+                from src.utils.direct_api_scraper import get_direct_api_scraper
+                direct_scraper = get_direct_api_scraper()
+                all_matches = direct_scraper.get_all_live_matches()
+
+                print(f"Direct API found {len(all_matches)} total matches")
+
+                for match in all_matches:
+                    # Check if it's T20 and filter appropriately
+                    if self._is_t20_match(match):
+                        # Check if live or about to start
+                        if match.get('state') in ['in', 'pre']:
+                            matches.append(match)
+                            print(f"Added from Direct API: {match['name']}")
+
+            except Exception as e:
+                print(f"Error with Direct API: {e}")
+                import traceback
+                traceback.print_exc()
+
+            # Method 0b: Scrape ESPN Cricinfo main page for live match links
             print("Scraping ESPN Cricinfo main page for live matches...")
             try:
                 discovered_ids = self._discover_live_match_ids()
                 if discovered_ids:
                     print(f"Discovered {len(discovered_ids)} live match IDs from ESPN main page")
                     for match_id in discovered_ids:
+                        # Avoid duplicates
+                        if any(m['match_id'] == str(match_id) for m in matches):
+                            continue
+
                         # Get match details directly
                         match_details = self.get_match_details(str(match_id))
-                        if match_details and match_details.get('current_innings', {}).get('is_second_innings'):
+                        if match_details:
                             # Create match_info structure
                             match_info = {
                                 'match_id': str(match_id),
@@ -231,7 +257,7 @@ class CricinfoScraper:
                             }
                             if self._is_t20_match(match_info):
                                 matches.append(match_info)
-                                print(f"Added: {match_info['name']}")
+                                print(f"Added from discovery: {match_info['name']}")
             except Exception as e:
                 print(f"Error discovering live matches from main page: {e}")
 
